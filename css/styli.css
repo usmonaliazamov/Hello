@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+header .logo {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    margin: 20px 100px;
+}
+
+header .navigation {
+    margin: 40px 120px;
+    display: flex;
+    list-style: none;
+}
+
+header .navigation a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+header .link {
+    margin: 40px;
+}
+
+header .link a {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+header .link a:nth-child(2) {
+    padding: 15px 30px;
+    background: blue;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+nav h1 {
+    font-size: 100px;
+}
+nav p {
+    font-size: 30px;
+    margin-top: 40px;
+}
+nav form{
+    display: flex;
+    margin: 40px 600px;
+}
+nav form button {
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background: #fff;
+    color: blue;
+    border: none;
+}
+nav form button:nth-child(1) {
+    background: blue;
+    color: #fff;
+}
+nav form button:nth-child(2){
+    box-shadow: 2px 2px 2px rgb(97, 88, 88);
+}
+
+.main .tomon .chap {
+    float: left;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.main .tomon .ong {
+    float: right;
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+/* develop */
+
+.develop {
+    text-align: center;
+}
+.develop h1 {
+    font-size: 42px;
+    line-height: 53px;
+    color: #050038;
+}
+.develop p {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #5B5E6D;
+    padding-bottom: 50px;
+}
+.develop-title a {
+    text-align: center;
+    padding: 30px 60px;
+    margin-top: 50px;
+    border-radius: 30px;
+    background: rgba(5, 85, 255, 0.1);
+    font-size: 15px;
+    line-height: 32px;
+    color: #0555FF;
+    text-decoration: none;
+}
+.develop-items {
+    padding: 0 50px;
+    width: 90%;
+    padding-top: 90px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.develop-item h1 {
+    margin-left: 120px;
+    font-size: 72px;
+    line-height: 91px;
+    color: #050038;
+}
+.develop-item p {
+    margin-left: 120px;
+    text-align: left;
+}
+.develop-item a {
+    margin-left: 130px;
+}
+
+/* word */
+
+.word {
+    text-align: center;
+    background: #F8F8FA;
+
+}
+.word-items {
+    padding-top: 100px;
+}
+.word-items p {
+    font-size: 15px;
+}
+.word-items h1 {
+    font-size: 52px;
+    letter-spacing: 3px;
+    line-height: 100px;
+}
+.word-itemone {
+    display: flex;
+    justify-content: space-evenly;
+}
+.word-item {
+    width: 450px;
+    height: 400px;
+    border: 1px solid #E8E8E8;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    text-align: center;
+    border-radius: 15px;
+}
+.word-itenname {
+    display: flex;
+    margin-top: 10px;
+}
+.word-imge {
+    display: flex;
+    margin: 20px 20px;
+}
+.word-itenname img:nth-child(2) {
+    margin: 20px 130px;
+    width: 35px;
+    height: 35px;
+}
+.word-item p {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+          /* footer */
+.starts {
+    text-align: center;
+    background: #130C3A;
+    padding-top: 50px;
+}
+.start-item h1 {
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+}
+.start-item form {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+.start-item form input {
+    width: 450px;
+    height: 40px;
+    background: #130C3A;
+    color: #A4A3AB;
+    position: relative;
+    border-radius: 10px;
+}
+.start-item form button {
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    margin-right: 50px;
+    background: blue;
+    color: #FFFFFF;
+    margin-left: -150px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.start-itemone {
+    display: flex;
+    padding-bottom: 100px;
+    margin-left: 100px;
+}
+.start-link {
+    margin-left: 50px;
+    text-align: left;
+}
+.start-link p {
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.start-link a {
+    display: block;
+    text-align: left;
+    color: #5F668B;
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
